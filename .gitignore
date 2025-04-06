@@ -1,5 +1,90 @@
+# Build output
 bin/
 obj/
-/packages/
+packages/
 riderModule.iml
-/_ReSharper.Caches/
+_ReSharper.Caches/
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.userprefs
+
+# Debug/Release
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+logs/
+*.log
+*.tmp
+*.tmp_proj
+
+# .NET Core
+artifacts/
+*.pdb
+*.dll
+*.exe
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# Coverage
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# VS Code (optional)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# macOS
+.DS_Store
+
+# Rider/JetBrains
+*.sln.iml
+
+# Misc
+*.publishsettings
+*.dbmdl
+*.cache
+*.pidb
+*.tlog
+*.psess
+*.vsp
+*.vspx
+*.ncb
+*.opendb
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+*.aps
+*.ilk
+*.meta
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+!Directory.Build.rsp
